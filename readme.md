@@ -100,6 +100,23 @@ Immunova/
 pip install -r task_requirements.txt
 ```
 
+### 👩‍💻 Beginner-Friendly Quick Start Examples
+
+For new contributors, here are a few ways to explore the pipeline:
+
+1. **Run a small test with sample data**  
+```bash
+python predict.py --task response --sample_data
+```
+2. **Visualize a single patient’s predictions**
+```bash
+python predict.py --task survival --patient_id 001
+```
+3. **Check data formats without training**
+```bash
+python inspect_pkl_keys.py wsi_feature/wsi_features_SAMPLE.pkl
+```  
+
 ### 1. Data Preparation
 
 See [DATA_SETUP.md](DATA_SETUP.md) for detailed instructions on preparing your data.
